@@ -1,0 +1,70 @@
+/* src/components/Search.css */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-select {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .repo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .repo-card {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .repo-avatar {
+    border-radius: 50%;
+  }
+  
+  .repo-name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .repo-stars {
+    font-weight: bold;
+  }
+  
+  .repo-description {
+    margin: 10px 0;
+  }
+  
+  .repo-language {
+    font-style: italic;
+  }
+  
